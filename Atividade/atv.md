@@ -82,8 +82,36 @@ let texto='variavel';
 console.log(typeof texto);
 ```
 ---
-- Usando 
-
-
-
-
+- Usando valores undefined, valor padrao quando uma variavel é declarada, mas nao inicializada
+EXEMPLO
+```JavaScript
+let indefinido;
+console.log(typeof indefinido);
+```
+---
+- Usando valores null, indica a ausencia de valor intencionalmente 
+EXEMPLO
+```JavaScript
+let nulo=null;
+console.log(typeof nulo);
+```
+---
+>## EXPLICACAO ADICIONAL
+---
+``boolean``:usado para representar valores logicos verdadeiros ou falso.
+---
+``number`` :usado para representar valores numericos, tanto inteiros quanto de ponto flutuante.
+---
+``string``:usado para representar sequencias de caracteres
+---
+``undefined`` :indica que uma variavel foi declarada, mas ainda nao foi atribuida com um valor.
+---
+``null``:indica explicitamente a ausencia de valor.
+---
+>- EXERCICIO
+### 1.marque 'X' para a alternativa 'ERRADA'.
+- [ ] valores nulos indicam a ausencia de valores.
+- [X] valores de var sao apenas declaradas localmente.
+- [ ] valores let sao apenas declarados localmente.
+- [ ] valores string sao usados para representar um texto
+- [ ] em escopo global, as variaveis podem ser declaradas fora de uma funcao 
