@@ -7,12 +7,19 @@
 
 # Tipos de dados
 - objeto
+- array
 - tipos primitivos
   - booleon
   - string
   - null
   - number
   - undefined
+  
+# Operadores basicos
+- aritmeticos
+- de comparacao
+- logicos
+- typeof
 
 ---
   ## Declaracao de variaveis
@@ -115,3 +122,22 @@ console.log(typeof nulo);
 - [ ] valores let sao apenas declarados localmente.
 - [ ] valores string sao usados para representar um texto
 - [ ] em escopo global, as variaveis podem ser declaradas fora de uma funcao 
+
+>[TIPOS DE DADOS]
+- ``Objetos``: em javascript os objetos sao declarados por meio das chaves com valores, podendo ser qualquer tipo de valor
+EXEMPLO
+```JavaScript
+let carro ={
+    marca:"nissan",
+    modelo:"sentra",
+    ano:2021,
+    cor:"prata"
+  };
+  console.log(carro.marca);
+  console.log(carro.modelo);
+  console.log(carro.ano);
+  console.log(carro.cor);
+```
+---
+``Array`` :O array é como se fosse uma lista, possuindo cada caracteristicas que podem ser adicionadas e modificadas
+
