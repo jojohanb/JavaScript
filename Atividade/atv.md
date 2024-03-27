@@ -140,4 +140,177 @@ let carro ={
 ```
 ---
 ``Array`` :O array é como se fosse uma lista, possuindo cada caracteristicas que podem ser adicionadas e modificadas
+-
+EXEMPLO
+```JavaScript
 
+let carro = ["Nissan", "Sentra", 2021, "prata"];
+
+console.log("Marca: " + carroNissan[0]); // Saída: Nissan
+console.log("Modelo: " + carroNissan[1]); // Saída: Sentra
+console.log("Ano: " + carroNissan[2]); // Saída: 2021
+
+```
+---
+
+## OPERADORES BASICOS
+- Arimeticos
+- De comparacao
+- Logicos
+- Tipo de
+---
+### Aritmeticos
+->Operadores aritmeticos sao aqueles usados para calcular operacoes matematicas basicas  
+EXEMPLO
+
+1.Adição (+)  
+2.Subtração (-)  
+3.Multiplicação (*)  
+4.Divisão (/)  
+5.Resto da divisão (ou Módulo) (%)  
+6.Incremento (++)  
+7.Decremento (--)  
+>[OBS:Os operadores de incremento e decremento sao utilizados principalmente em lacos de repeticoes eles servem para diminuir ou aumentar 1 unidade do valor]  
+
+EXEMPLOS
+---
+>ADICAO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(x+y); //Saida:15
+```
+---
+>SUBTRACAO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(x-y); //Saida:5
+```
+---
+>MULTIPLICACAO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(x*y); //Saida:50
+```
+---
+>DIVISAO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(x/y); //Saida:2
+```
+---
+>RESTO DA DIVISAO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(x%y); //Saida:0
+```
+---
+>INCREMENTO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(++x); //Saida:12
+```
+---
+>DECREMENTO
+```JavaScript
+let x=10;
+let y=5;
+
+console.log(y--); //Saida:3
+```
+---
+
+### De comparacao
+->são usados para comparar dois valores e retornar um valor booleano (true ou false).  
+EXEMPLO  
+1.Igual (==)  
+2.Não igual (!=)  
+3.Estritamente igual (===)  
+4.Estritamente não igual (!==)  
+5.Maior que (>)  
+6.Menor que (<)  
+7.Maior ou igual que (>=)  
+8.Menor ou igual que (<=)  
+
+EXEMPLOS
+---
+>IGUAL
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a == b); // Saída: false
+```
+---
+>NAO IGUAL
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a != b); // Saída: true
+```
+---
+>ESTRITAMENTE IGUAL
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a === b); // Saída: false
+```
+---
+>ESTRITAMENTE NAO IGUAL
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a !== b); // Saída: true
+```
+---
+
+>MAIOR QUE
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a > b); // Saída: false
+```
+---
+>MENOR QUE
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a < b); // Saída: true
+```
+---
+>MAIOR OU IGUAL QUE
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a >= b); // Saída: false
+```
+---
+>MENOR OU IGUAL QUE
+```JavaScript
+let a = 5;
+let b = 10;
+
+console.log(a <= b); // Saída: true
+```
+---
+
+### Logicos
+
+### De tipos
