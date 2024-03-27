@@ -312,5 +312,57 @@ console.log(a <= b); // Saída: true
 ---
 
 ### Logicos
+->SAo usados para combinar expressoes condicionais e retornar um valor booleano.  
+1.e logico(&&)   
+2.ou logico(||)  
+3.nao logico(!)  
+EXEMPLO
+>LOGICO(&&)
+```Javascript
+let a=true;
+let b=false;
+
+console.log(a && b);
+//saida:false
+```
+---
+>LOGICO(||)
+```Javascript
+let a=true;
+let b=false;
+
+console.log(a || b);
+//saida:true
+
+```
+---
+>NAO LOGICO(!)
+```Javascript
+let a=true;
+let b=false;
+
+console.log(!a);
+//saida:false
+```
+---
 
 ### De tipos
+->sao usados para verificar o tipo de dado de uma variavel.  
+1.typeof  
+2.instanceof   
+
+EXEMPLO
+>TYPEOF
+```Javascript
+let str="ola";
+let num=10;
+let arr=[1,2,3];
+console.log(typeof str);
+//saida:string
+```
+----
+>INSTANCEOF
+```Javascript
+console.log(arr instanceof array);
+//saida:true
+```
